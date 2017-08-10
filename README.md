@@ -20,3 +20,14 @@ Version 1.0
 ```
 
 © Handcrafted by [Marcos Takeshi](http://mtakeshi.github.io).
+
+
+
+### Para iniciar localmente
+
+bundle exec jekyll serve
+
+acesso por http://localhost:4000
+
+
+

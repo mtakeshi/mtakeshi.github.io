@@ -1,0 +1,56 @@
+# Basic site info
+title:              "think in progress"
+description:        "Data Science, Technology, Big Data, Machine Learning, Life Experience"
+keywords:           "marcos takeshi, blog pessoal, bigdata engineer, development, tecnologia, iot"
+logo_text:          "think in progress"
+show_tagline:       true # edit file in /_includes/tagline.html
+show_social_icons:  true # edit file in /_includes/social_links.html
+og_locale:          "pt_BR"
+cover:              "/assets/logo.png" # site image cover
+
+# Site URL settings
+url:                https://mtakeshi.github.io # main url
+baseurl:            null # for gh-pages
+enforce_ssl:        marcos.takeshi.com
+
+# Site author info
+author:
+  name:             "Marcos Takeshi"
+  email:            marcos.takeshi@gmail.com
+  github_username:  mtakeshi
+  twitter_username: takeshi_marcos
+  facebook_url:     https://www.facebook.com/marcos.takeshi
+
+# Disqus comment settings
+disqus_enabled:     false
+disqus_shortname:   mtakeshigithub
+
+# GA
+google_analytics_code: 
+
+# Build settings
+source:             ./
+destination:        ./_site
+permalink:          /:year/:title
+markdown:           kramdown
+highlighter:        rouge
+timezone:           America/Sao_Paulo
+exclude:            ["README.md", "LICENSE.md", "CHANGELOG.md"]
+
+# Site configurations
+compress_html:
+  clippings:        all
+  comments:         ["<!-- ", " -->"]
+  endings:          all
+  ignore:
+    envs:           [local]
+  blanklines:       false
+  profile:          false
+  startings:        [html, head, body]
+
+sass:
+  sass_dir:         assets/scss
+  style:            compressed # expanded
+
+gems:
+  - jekyll-sitemap
